@@ -1,0 +1,215 @@
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+
+.content{
+    align-items: center;
+    text-align: center;
+}
+
+.img{
+    height:23vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/img2.png');
+    background-repeat: no-repeat;
+    background-size:190px;
+    background-position:cover center;
+}
+
+.img img{
+    height: 140px;
+}
+
+.contentInfor{
+    width: 100%;
+    background-color: #FFF;
+    color: #000;
+    border-radius: 1rem;
+}
+
+.apresentation{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius : 1rem;
+}
+
+.number{
+    color:#1C1C1C;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.name{
+    color: #000;
+    font-size: 3rem;
+    font-weight:300;
+    margin-bottom: .25rem;
+    text-transform: capitalize;
+}
+
+.title{
+    color: #1C1C1C;
+    font-size: 2rem;
+    font-weight:300;
+    margin-bottom: .25rem;
+    text-transform: capitalize;
+}
+
+.details{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box{
+    padding: 1rem;
+    margin:0;
+    list-style: none;
+
+}
+
+.type{
+    
+    filter: brightness(2.5);
+    color: #FFF;
+    padding: .9rem;
+    margin: .25rem 0;
+    font-size: .900rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    text-align: center;
+    filter: brightness(1.1);
+    text-transform: capitalize;
+}
+
+.box_li{
+    background-color:#678fee;
+}
+
+.box_HP{
+    background-color:#B22222;
+}
+
+.box_Attack{
+    background-color:#B22222;
+}
+
+.box_Defense{
+    background-color:#B22222;
+}
+
+.box_Speed{
+    background-color:#B22222;
+}
+
+.box_ability{
+    background-color: #708090;
+}
+
+.return{
+    margin: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.return .btn{
+    color: #FFF;
+    text-align: center;
+    size: .225rem;
+    width: 80px;
+    background-color: #6C79DB;
+    padding: 1rem;
+    margin: .25rem 0;
+    font-size: .800rem;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 380px){
+    .pokemons-list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .pokemons-list{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .details{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
